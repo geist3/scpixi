@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            margin: 0px;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://d157l7jdn8e5sf.cloudfront.net/release/pixi.js"></script>
+    <script>
+        // Pixi app
+        var pixiApp = {
+            images : {}
+        };
+
+        var addImage = function(){
+            // create a new Sprite from an image path
+            pixiApp.images.bunny = PIXI.Sprite.fromImage('assets/player_01.png')
+
+            // center the sprite's anchor point
+            pixiApp.images.bunny.anchor.set(0.5);
+
+            // move the sprite to the center of the screen
+            pixiApp.images.bunny.x = pixiApp.app.screen.width / 2;
+            pixiApp.images.bunny.y = 10;
+
+            pixiApp.app.stage.addChild(pixiApp.images.bunny);
+        }
+
+        var addText = function(){
+            var basicText = new PIXI.Text('Basic text in pixi');
+            basicText.x = 30;
+            basicText.y = 90;
+
+            pixiApp.app.stage.addChild(basicText);
+        }
+
+        function listenForAnimationUpdate(){
+            pixiApp.app.ticker.add(function (delta) {
+                // just for fun, let's rotate mr rabbit a little
+                // delta is 1 if running at 100% performance
+                // creates frame-independent transformation
+                pixiApp.images.bunny.rotation += 0.1 * delta;
+            });
+        }
+
+        function createPixiApp(){
+            pixiApp.app = new PIXI.Application(800, 600, { backgroundColor: 0x1099bb });
+            document.body.appendChild(pixiApp.app.view);
+        }
+
+        window.onload = function () {
+            createPixiApp();
+            addImage();
+            addText();
+            listenForAnimationUpdate();
+        }
+    </script>
+</body>
+</html>
