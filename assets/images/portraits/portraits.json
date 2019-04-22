@@ -1,0 +1,502 @@
+{"frames": {
+
+"adjutant.png":
+{
+	"frame": {"x":1,"y":1,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"archon.png":
+{
+	"frame": {"x":1,"y":264,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"baneling.png":
+{
+	"frame": {"x":1,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"banshee.png":
+{
+	"frame": {"x":1,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"battlecruiser.png":
+{
+	"frame": {"x":1,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"broodlord.png":
+{
+	"frame": {"x":155,"y":1,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"carrier.png":
+{
+	"frame": {"x":155,"y":264,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"carrionbird.png":
+{
+	"frame": {"x":155,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"changeling.png":
+{
+	"frame": {"x":155,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"colossus.png":
+{
+	"frame": {"x":155,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"corruptor.png":
+{
+	"frame": {"x":309,"y":1,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"darktemplar.png":
+{
+	"frame": {"x":309,"y":264,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"darktemplar2.png":
+{
+	"frame": {"x":309,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"drone.png":
+{
+	"frame": {"x":309,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"egg.png":
+{
+	"frame": {"x":309,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"executor.png":
+{
+	"frame": {"x":463,"y":1,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"ghost.png":
+{
+	"frame": {"x":463,"y":264,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"hellion.png":
+{
+	"frame": {"x":463,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"hightemplar.png":
+{
+	"frame": {"x":463,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"hydralisk.png":
+{
+	"frame": {"x":463,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"immortal.png":
+{
+	"frame": {"x":617,"y":1,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"infestedmarine.png":
+{
+	"frame": {"x":617,"y":264,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"infestor.png":
+{
+	"frame": {"x":617,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"karakfemale.png":
+{
+	"frame": {"x":617,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"karakmale.png":
+{
+	"frame": {"x":617,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"larva.png":
+{
+	"frame": {"x":771,"y":1,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"lyote.png":
+{
+	"frame": {"x":1034,"y":1,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"marauder.png":
+{
+	"frame": {"x":1297,"y":1,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"marine.png":
+{
+	"frame": {"x":1560,"y":1,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"medivac.png":
+{
+	"frame": {"x":1823,"y":1,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"mothership.png":
+{
+	"frame": {"x":771,"y":155,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"mule.png":
+{
+	"frame": {"x":1034,"y":155,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"mutalisk.png":
+{
+	"frame": {"x":1297,"y":155,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"nydusworm.png":
+{
+	"frame": {"x":1560,"y":155,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"observer (2).png":
+{
+	"frame": {"x":1823,"y":264,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"observer.png":
+{
+	"frame": {"x":771,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"overseer.png":
+{
+	"frame": {"x":771,"y":309,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"phoenix.png":
+{
+	"frame": {"x":771,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"portraits-38.png":
+{
+	"frame": {"x":771,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"probe.png":
+{
+	"frame": {"x":1034,"y":309,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"queen.png":
+{
+	"frame": {"x":1297,"y":309,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"raven.png":
+{
+	"frame": {"x":1560,"y":309,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"reaper.png":
+{
+	"frame": {"x":925,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"roach.png":
+{
+	"frame": {"x":925,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"scantipede.png":
+{
+	"frame": {"x":925,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"scv.png":
+{
+	"frame": {"x":1079,"y":463,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"sentry.png":
+{
+	"frame": {"x":1342,"y":463,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"siegetank.png":
+{
+	"frame": {"x":1605,"y":463,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"stalker.png":
+{
+	"frame": {"x":1759,"y":527,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"symbiote.png":
+{
+	"frame": {"x":1079,"y":617,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"thor.png":
+{
+	"frame": {"x":1342,"y":617,"w":152,"h":261},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"ultralisk.png":
+{
+	"frame": {"x":1605,"y":726,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"ursadak (2).png":
+{
+	"frame": {"x":1759,"y":790,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"ursadak.png":
+{
+	"frame": {"x":1079,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"utilitybot.png":
+{
+	"frame": {"x":1233,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"viking.png":
+{
+	"frame": {"x":1387,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"vikingfighter.png":
+{
+	"frame": {"x":1541,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"voidray.png":
+{
+	"frame": {"x":1695,"y":1053,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"warpprism.png":
+{
+	"frame": {"x":1079,"y":771,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"zealot.png":
+{
+	"frame": {"x":1233,"y":771,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+},
+"zergling.png":
+{
+	"frame": {"x":1387,"y":771,"w":152,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":261},
+	"sourceSize": {"w":152,"h":261}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "portraits.png",
+	"format": "RGBA8888",
+	"size": {"w":1976,"h":1315},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aab1df1d634dba6ce38f6248425eb6a4:caa233af0a5a0828d6c0564bbbf15968:b2f80d7af41902736d3ed02ec88e31a6$"
+}
+}

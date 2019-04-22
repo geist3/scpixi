@@ -15,22 +15,40 @@ pixiApp.addImage = function(){
     pixiApp.app.stage.addChild(pixiApp.images.bunny);
 }
 
-pixiApp.addText = function(){
-    var enemy = Object.keys(pixiApp.stats)[0];
+pixiApp.showPrompt = function(){
+    // pick enemy
+    var keys = Object.keys(pixiApp.stats);
+    var randomIndex = Math.floor(Math.random() * keys.length);
+    var enemy = Object.keys(pixiApp.stats)[randomIndex];
+    
+    // text
     var basicText = new PIXI.Text('A random ' + enemy + ' appears');
     basicText.x = 30;
-    basicText.y = 90;
+    basicText.y = 30;
     pixiApp.app.stage.addChild(basicText);
+
+    // image
+    var image = new PIXI.Sprite(pixiApp.sheet.textures[enemy.toLowerCase().replace(/ /g, '') + ".png"]);
+    image.x = 60
+    image.y = 70
+    pixiApp.app.stage.addChild(image);
 }
 
 pixiApp.listenForAnimationUpdate = function(){
     pixiApp.app.ticker.add(function (delta) {
-        pixiApp.images.bunny.rotation += 0.1 * delta;
+        if(pixiApp.state !== pixiApp.states.RUNNING){
+            if(pixiApp.resourcesToLoad === 0){
+                pixiApp.showPrompt();
+                pixiApp.state = pixiApp.states.RUNNING;
+            }
+        }else{
+            pixiApp.images.bunny.rotation += 0.1 * delta;
+        }
     });
 }
 
 pixiApp.createPixiApp = function(){
-    pixiApp.app = new PIXI.Application(800, 600, { backgroundColor: 0x1099bb });
+    pixiApp.app = new PIXI.Application(500, 600, { backgroundColor: 0x1099bb });
     document.body.appendChild(pixiApp.app.view);
 }
 
@@ -39,17 +57,25 @@ pixiApp.initGame = function(){
 }
 
 pixiApp.loadAssets = function(){
+    pixiApp.resourcesToLoad = 2;
+
     loadJSON('assets/javascript/stats.json', function(response) {
         pixiApp.stats = JSON.parse(response);
-        pixiApp.listenForAnimationUpdate();
-        pixiApp.addText();
-        pixiApp.state = pixiApp.states.RUNNING;
+        pixiApp.resourcesToLoad--;
     });
+
+    PIXI.loader
+        .add("assets/images/portraits/portraits.json")
+        .load(function(){
+            pixiApp.sheet = PIXI.loader.resources["assets/images/portraits/portraits.json"];
+            pixiApp.resourcesToLoad--;
+        });
 }
 
 window.onload = function () {
     pixiApp.initGame();
-    pixiApp.loadAssets();
     pixiApp.createPixiApp();
     pixiApp.addImage();
+    pixiApp.loadAssets();
+    pixiApp.listenForAnimationUpdate();
 }
