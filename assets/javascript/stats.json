@@ -1,25 +1,169 @@
 {
-    "Larva": {},
-    "Queen" : {},
-    "Zergling" : {},
-    "Baneling" : {},
-    "Roach" : {},
-    "Ravager" : {},
-    "Hydralisk" : {},
-    "Lurker" : {},
-    "Infestor" : {},
-    "Infested Terran" : {},
-    "Swarm Host" : {},
-    "Locust" : {},
-    "Ultralisk" : {},
-    "Overlord" : {},
-    "Overseer" : {},
-    "Changeling" : {},
-    "Mutalisk" : {},
-    "Corruptor" : {},
-    "Viper" : {},
-    "Brood Lord" : {},
-    "Broodling" : {},
-    "Nydus Worm" : {},
-    "Drone" : {}
+    "Terran" : {
+        "Units" : {
+            "Banshee" : {
+                "image" : "banshee.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Hydralisk"]
+                }
+            },
+            "Battlecruiser" : {
+                "image" : "battlecruiser.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Corruptor"]
+                }
+            },
+            "Cyclone" : {
+                "image" : "cyclone.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Zergling"]
+                }
+            },
+            "Ghost" : {
+                "image" : "ghost.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Zergling"]
+                }
+            },
+            "Hellbat" : {
+                "image" : "hellbat.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Baneling"]
+                }
+            },
+            "Hellion" : {
+                "image" : "hellion.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Roach"]
+                }
+            },
+            "Liberator" : {
+                "image" : "liberator.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Corruptor"]
+                }
+            },
+            "Marauder" : {
+                "image" : "marauder.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Zergling"]
+                }
+            },
+            "Marine" : {
+                "image" : "marine.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Baneling"]
+                }
+            },
+            "Raven" : {
+                "image" : "raven.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Corruptor"]
+                }
+            },
+            "Reaper" : {
+                "reaper" : "banshee.png",                
+                "WeakAgainst" : {
+                    "Zerg": ["Roach"]
+                }
+            },
+            "Seige Tank" : {
+                "image" : "seigetank.png",                
+                "WeakAgainst" : {
+                    "Zerg": ["Mutalisk"]
+                }
+            },
+            "Thor" : {
+                "WeakAgainst" : {
+                    "image" : "thor.png",
+                    "Zerg": ["Zergling"]
+                }
+            },
+            "Viking" : {
+                "image" : "viking.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Mutalisk"]
+                }
+            },
+            "Widow Mine" : {
+                "image" : "widownmine.png",
+                "WeakAgainst" : {
+                    "Zerg": ["Overseer"]
+                }
+            }
+        }
+    },
+    "Zerg": {
+        "Units" : {
+            "Larva": {
+                "image" : "larva.png"
+            },
+            "Queen" : {
+                "image" : "queen.png"
+            },
+            "Zergling" : {
+                "image" : "zergling.png"
+            },
+            "Baneling" : {
+                "image" : "baneling.png"
+            },
+            "Roach" : {
+                "image" : "roach.png"
+            },
+            "Ravager" : {
+                "image" : "ravager.png"
+            },
+            "Hydralisk" : {
+                "image" : "hydralisk.png"
+            },
+            "Lurker" : {
+                "image" : "lurker.png"
+            },
+            "Infestor" : {
+                "image" : "infestor.png"
+            },
+            "Infested Terran" : {
+                "image" : "infestedterran.png"
+            },
+            "Swarm Host" : {
+                "image" : "swarmhost.png"
+            },
+            "Locust" : {
+                "image" : "locust.png"
+            },
+            "Ultralisk" : {
+                "image" : "ultralisk.png"
+            },
+            "Overlord" : {
+                "image" : "overlord.png"
+            },
+            "Overseer" : {
+                "image" : "overseer.png"
+            },
+            "Changeling" : {
+                "image" : "changeling.png"
+            },
+            "Mutalisk" : {
+                "image" : "mutalisk.png"
+            },
+            "Corruptor" : {
+                "image" : "corruptor.png"
+            },
+            "Viper" : {
+                "image" : "viper.png"
+            },
+            "Brood Lord" : {
+                "image" : "broodlord.png"
+            },
+            "Broodling" : {
+                "image" : "broodling.png"
+            },
+            "Nydus Worm" : {
+                "image" : "nydusworm.png"
+            },
+            "Drone" : {
+                "image" : "drone.png"
+            }
+        }
+    }
 }
