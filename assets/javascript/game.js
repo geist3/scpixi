@@ -8,11 +8,11 @@ var pixiApp = {
 };
 
 pixiApp.addImage = function(){
-    pixiApp.images.bunny = PIXI.Sprite.fromImage('assets/images/player_01.png')
-    pixiApp.images.bunny.anchor.set(0.5);
-    pixiApp.images.bunny.x = pixiApp.app.screen.width / 2;
-    pixiApp.images.bunny.y = 10;
-    pixiApp.app.stage.addChild(pixiApp.images.bunny);
+    pixiApp.images.logo = PIXI.Sprite.fromImage('assets/images/player_01.png')
+    pixiApp.images.logo.anchor.set(0.5);
+    pixiApp.images.logo.x = pixiApp.app.screen.width / 2;
+    pixiApp.images.logo.y = 10;
+    pixiApp.state === pixiApp.states.INITIALIZING && pixiApp.app.stage.addChild(pixiApp.images.logo);
 }
 
 pixiApp.showPrompt = function(){
@@ -22,16 +22,42 @@ pixiApp.showPrompt = function(){
     var enemy = Object.keys(pixiApp.stats)[randomIndex];
     
     // text
-    var basicText = new PIXI.Text('A random ' + enemy + ' appears');
-    basicText.x = 30;
-    basicText.y = 30;
-    pixiApp.app.stage.addChild(basicText);
+    if(pixiApp.state === pixiApp.states.INITIALIZING){
+        pixiApp.promptText = new PIXI.Text('A random ' + enemy + ' appears');
+        pixiApp.promptText.x = 30;
+        pixiApp.promptText.y = 30;
+        pixiApp.app.stage.addChild(pixiApp.promptText);
+    }else{
+        pixiApp.promptText.text = 'A random ' + enemy + ' appears';
+    } 
 
     // image
-    var image = new PIXI.Sprite(pixiApp.sheet.textures[enemy.toLowerCase().replace(/ /g, '') + ".png"]);
-    image.x = 60
-    image.y = 70
-    pixiApp.app.stage.addChild(image);
+    if(pixiApp.state === pixiApp.states.INITIALIZING){
+        pixiApp.promptImage = new PIXI.Sprite(pixiApp.sheet.textures[enemy.toLowerCase().replace(/ /g, '') + ".png"]);
+        pixiApp.promptImage.x = 60
+        pixiApp.promptImage.y = 70
+        pixiApp.app.stage.addChild(pixiApp.promptImage);
+    }else{
+        pixiApp.promptImage.texture = pixiApp.sheet.textures[enemy.toLowerCase().replace(/ /g, '') + ".png"];
+    }
+}
+
+pixiApp.addGUI = function(){
+    //button
+    var textureButton = PIXI.Texture.fromImage('assets/images/button.png');
+    var button = new PIXI.Sprite(textureButton);
+    button.anchor.set(0.5);
+    button.x = 200;
+    button.y = 500;
+    button.interactive = true;
+    button.buttonMode = true;
+
+    button.on('pointerup', pixiApp.onButtonUp);
+    pixiApp.app.stage.addChild(button);
+}
+
+pixiApp.onButtonUp = function() {
+    pixiApp.showPrompt();
 }
 
 pixiApp.listenForAnimationUpdate = function(){
@@ -42,7 +68,7 @@ pixiApp.listenForAnimationUpdate = function(){
                 pixiApp.state = pixiApp.states.RUNNING;
             }
         }else{
-            pixiApp.images.bunny.rotation += 0.1 * delta;
+            pixiApp.images.logo.rotation += 0.1 * delta;
         }
     });
 }
@@ -77,5 +103,6 @@ window.onload = function () {
     pixiApp.createPixiApp();
     pixiApp.addImage();
     pixiApp.loadAssets();
+    pixiApp.addGUI();
     pixiApp.listenForAnimationUpdate();
 }
